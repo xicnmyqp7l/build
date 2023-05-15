@@ -16,7 +16,7 @@ jobs:
       matrix:
         include:
           - arch: aarch64
-            distro: ubuntu18.04
+            distro: buster
       
     steps:
       - uses: actions/checkout@v3
